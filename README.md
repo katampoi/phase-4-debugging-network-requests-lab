@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Having an error 505;"Find the error message and stack trace to identify where the error originated" knowing this i solved by correcting some wrongly typed section
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  having a syntax error at the fetch section;" Check the controller action, and make sure to render json" solved by adding a render json: toy at the update session of likes
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Having a 404 error the issue was the was no path for delete;"Add a new route to handle the HTTP Verb + Path for this request" added a destroy in the resource in our route object
